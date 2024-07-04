@@ -89,6 +89,24 @@ const About = () => {
           </div>
         </div>
       </div>
+
+      {/* vision */}
+      <div className="bg-black text-white rounded-lg p-8 mt-16 flex flex-col justify-center items-center text-center">
+        <h3 className="text-2xl font-bold mb-4">Our Vision</h3>
+        <p className="max-w-md mb-4">
+          To be a beacon of hope and a source of strength for the Somali
+          community in Seattle and beyond. We envision a future where Somali
+          culture is celebrated and Somali individuals thrive in all aspects of
+          life.
+        </p>
+        <p className="max-w-md">
+          We aspire to create a united and supportive community where everyone
+          has the opportunity to achieve their full potential. Through our
+          programs and initiatives, we aim to build a bridge between the Somali
+          community and the wider Seattle population, fostering understanding,
+          respect, and mutual growth.
+        </p>
+      </div>
     </div>
   );
 };

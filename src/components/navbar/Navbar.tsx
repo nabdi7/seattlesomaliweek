@@ -14,7 +14,12 @@ const Navbar = () => {
             href="/"
             aria-label="Logo"
           >
-            <Image src="/logo.jpg" alt="Seattle Somali Week" width={100} height={100} />
+            <Image
+              src="/logo.jpg"
+              alt="Seattle Somali Week"
+              width={100}
+              height={100}
+            />
             {/* Seattle Somali Week */}
           </a>
         </div>
@@ -49,7 +54,7 @@ const Navbar = () => {
             <div>
               <a
                 className="inline-block text-black hover:text-gray-600 dark:hover:text-neutral-300"
-                href="#"
+                href="/about"
               >
                 About
               </a>
@@ -57,7 +62,7 @@ const Navbar = () => {
             <div>
               <a
                 className="inline-block text-black hover:text-gray-600 dark:hover:text-neutral-300"
-                href="#"
+                href="/events"
               >
                 Events
               </a>
@@ -65,7 +70,7 @@ const Navbar = () => {
             <div>
               <a
                 className="inline-block text-black hover:text-gray-600 dark:hover:text-neutral-300"
-                href="#"
+                href="/sponsors"
               >
                 Sponsors
               </a>
@@ -73,7 +78,7 @@ const Navbar = () => {
             <div>
               <a
                 className="inline-block text-black hover:text-gray-600 dark:hover:text-neutral-300"
-                href="#"
+                href="/contact"
               >
                 Contact
               </a>

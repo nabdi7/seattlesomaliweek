@@ -1,8 +1,9 @@
 import React from 'react'
+import Sponsors from "@/components/sponsors/SponsorsPage";
 
 const page = () => {
   return (
-    <div>page</div>
+    <Sponsors />
   )
 }
 
